@@ -15,7 +15,7 @@ graph TD
         Backend -->|Search & Download| Arxiv[Arxiv API]
         Backend -->|Embedding| HF[HuggingFace Embeddings]
         Backend <-->|Vector Store| ChromaDB[(ChromaDB)]
-        Backend <-->|Inference| Groq[Groq API\n(Llama 3)]
+        Backend <-->|Inference| Groq["Groq API<br/>(Llama 3)"]
     end
 
     Arxiv -.->|PDF Content| Backend
