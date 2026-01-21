@@ -3,8 +3,10 @@ langchain-groq
 langchain-community
 langchain-huggingface
 sentence-transformers
+huggingface-hub
 arxiv
 pymupdf
+pypdf
 chromadb
 python-dotenv
 tiktoken
